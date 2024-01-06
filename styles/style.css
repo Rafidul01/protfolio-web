@@ -94,7 +94,17 @@ header {
 }
 
 /* main sectoions  */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
 .about {
   padding: 130px;
   border-radius: 10px;
